@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { buildPendingRewardsPrintHTML } from '../js/reports/pending-rewards.js';
-import { bindActions } from '../js/ui/events.js';
+import { buildPendingRewardsPrintHTML } from '../js-live/reports/pending-rewards.js';
+import { bindActions } from '../js-live/ui/events.js';
 
 test('delegated actions let an evidence button stop its enclosing row from opening', () => {
     const listeners = {};
