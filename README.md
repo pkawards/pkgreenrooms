@@ -1,3 +1,5 @@
 # PK Awards preview
 
-Frontend snapshot from 1413c55. The Google Apps Script client is replaced by a browser-local mock with fictional records. Login is demo / demo. Upload uses a sample attachment. GitHub Pages uses main and /(root), with no build step.
+Frontend snapshot from 1413c55. The dashboard loads published award records from the same Google Apps Script endpoint as the school website. The preview client only sends GET requests. Login and changes to award records are disabled here.
+
+GitHub Pages uses main and /(root), with no build step.
